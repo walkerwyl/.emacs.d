@@ -6,6 +6,8 @@
 
 (add-to-list 'load-path "/home/wang/.emacs.d/lisp")
 
+(setq-default initial-major-mode 'fundamental-mode)
+
 (defun open-init-file()
   (interactive)
   (find-file "~/.emacs.d/init.el"))
