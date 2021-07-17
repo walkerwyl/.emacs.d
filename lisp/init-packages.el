@@ -54,7 +54,7 @@
 ;; ivy
 (require 'ivy)
 (ivy-mode t)
-
+(setq ivy-use-virtual-buffers t)
 
 ;; smex
 (require 'smex)
@@ -64,12 +64,6 @@
 ;; popwin
 (require 'popwin)
 (popwin-mode t)
-
-
-;; org
-(require 'org)
-(setq org-src-fontify-natively t)
-(setq org-agenda-files '("~/org"))
 
 
 (provide 'init-packages)
