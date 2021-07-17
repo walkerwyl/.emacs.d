@@ -31,7 +31,8 @@
 					counsel
 					smex
 					org
-					popwin)))
+					popwin
+					monokai-theme)))
 
 
 ;; company
